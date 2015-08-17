@@ -1,0 +1,11 @@
+--- src/rt3573-2.5.0.0/os/linux/config.mk	2013-04-26 12:23:41.549265537 +0300
++++ config.mk	2013-04-26 12:24:04.732599483 +0300
+@@ -28,7 +28,7 @@
+ 
+ # Support Native WpaSupplicant for Network Maganger
+ # i.e. wpa_supplicant -Dwext
+-HAS_NATIVE_WPA_SUPPLICANT_SUPPORT=n
++HAS_NATIVE_WPA_SUPPLICANT_SUPPORT=y
+ 
+ #Support Net interface block while Tx-Sw queue full
+ HAS_BLOCK_NET_IF=n
